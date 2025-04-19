@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [Github repo link](https://github.com/usiemeblessing/blog-review-card)
+-   Live Site URL: [Live site at Netlify](usiemeblessing-blog-review-card)
 
 ## My process
 
@@ -75,4 +75,4 @@ I began by analyzing the design and setting up the project structure. I then wro
 
 ## Acknowledgments
 
-I would like to acknowledge the Future Fullstack YouTube channel for providing clear and valuable HTML tutorials that contributed greatly to my understanding during this project.
+I would like to acknowledge the Future Fullstack YouTube channel for providing clear and valuable HTML and CSS tutorials that contributed greatly to my understanding during this project.
