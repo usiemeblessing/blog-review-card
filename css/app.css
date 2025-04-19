@@ -1,0 +1,174 @@
+/* 
+---------------- FONT WEIGHT ----------------
+	--font-weight-normal: 400;
+	--font-weight-bold1: 600;
+	--font-weight-bold2: 800;
+
+---------------- FONT FAMILY ----------------
+
+--font-family: "Figtree", sans-serif;
+
+
+---------------- LINE HEIGHT ----------------
+--line-height-tight: 1.2;
+	--line-height-normal: 1.5;
+
+
+---------------- COLORS ----------------
+
+- Yellow: hsl(47, 88%, 63%)
+- White: hsl(0, 0%, 100%) 
+- Grey: hsl(0, 0%, 50%)
+- Black: hsl(0, 0%, 7%)
+-purple: hsl(228, 45%, 44%)
+
+
+*/
+
+/* GLOBAL STYLES */
+
+:root {
+	/* COLORS */
+	--yellow: hsl(47, 88%, 63%);
+	--white: hsl(0, 0%, 100%);
+	--black: hsl(0, 0%, 7%);
+	--grey: hsl(0, 0%, 50%);
+
+	/* FONT FAMILY */
+
+	--font-family: "Figtree", sans-serif;
+
+	/* FONT WEIGHT*/
+	--font-weight-normal: 400;
+	--font-weight-bold1: 600;
+	--font-weight-bold2: 800;
+
+	/* LINE HEIGHT */
+
+	--line-height-tight: 1.2;
+	--line-height-normal: 1.5;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* ----------------------------------------------------------- */
+
+body {
+	background-color: var(--yellow);
+	font-size: 16px;
+	font-family: var(--font-family);
+	font-weight: var(--font-weight-normal);
+	min-height: 100vh;
+	line-height: var(--line-height-normal);
+	color: var(--black);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.card {
+	background-color: white;
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	border-radius: 8px;
+	margin-bottom: 60px;
+	box-shadow: 7px 7px #000000;
+	border: 2px solid var(--black);
+}
+
+.illustration-img {
+	border-radius: 8px;
+}
+
+.learning-tag {
+	background-color: var(--yellow);
+	display: inline-block;
+	color: var(--black);
+	font-weight: var(--font-weight-bold1);
+	width: 100px;
+	text-align: center;
+	border-radius: 4px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.publish-date {
+	font-weight: var(--font-weight-bold1);
+	font-size: 12px;
+}
+
+h1 a {
+	margin-top: 13px;
+	margin-bottom: 13px;
+	font-size: 22px;
+	font-weight: var(--font-weight-bold2);
+	color: var(--black);
+}
+
+h1 a:hover {
+	cursor: pointer;
+	color: var(--yellow);
+}
+
+.card-paragraph {
+	color: var(--grey);
+	font-size: 15px;
+}
+
+.user {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	margin-top: 20px;
+}
+
+.username {
+	font-weight: var(--font-weight-bold2);
+	font-size: 14px;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+.attribution a:hover {
+	color: var(--white);
+}
+
+/* ------------------------- MEDIA QUERY ------------------------- */
+
+/* XS - PORTRAIT PHONES : 368px */
+
+@media (max-width: 24rem) {
+	/* 384px / 16px = 23.4rem */
+	/* 24rem x 16px = 384px */
+
+	html {
+		font-size: 37.5%;
+	}
+
+	.card {
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+		max-width: 350px;
+	}
+
+	.card-paragraph {
+		font-size: 13px;
+	}
+
+	footer {
+		font-size: 10px;
+	}
+}
