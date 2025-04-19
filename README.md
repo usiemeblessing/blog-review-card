@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [Github repo link] (https://github.com/usiemeblessing/blog-review-card)
--   Live Site URL: [Live site at Netlify] (usiemeblessing-blog-review-card)
+-   Live Site URL: [Live site at Netlify] (usiemeblessing-blog-review-card.netlify.app)
 
 ## My process
 
